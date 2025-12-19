@@ -10,10 +10,13 @@ Research Goals
 This work demonstrates:
 
 ✅ Faithful reproduction of physical and protocol-layer quantum networking behaviors
+
 ✅ Scalability analysis of discrete-event simulation on resource-constrained systems
+
 ✅ Progressive modeling techniques for large-scale quantum networks (up to 1000 nodes)
+
 ✅ Best practices for quantum network simulation without GPU clusters or distributed computing
-__
+
 
 System Requirements
 Hardware & Environment
@@ -187,7 +190,9 @@ Computational efficiency: Single-machine execution without distributed computing
 2. Physical Layer Validation
 
 ✅ Exponential fiber attenuation matches theoretical predictions
+
 ✅ Decoherence times align with NV-center experimental data
+
 ✅ Fidelity decay follows F ≈ F₀^(n-1) scaling law
 
 3. Protocol Layer Insights
@@ -204,7 +209,7 @@ Documentation: Inline comments and type hints for code clarity
 Version control: Git-tracked development with meaningful commit messages
 
 
-Reproducibility
+## Reproducibility
 All simulations are fully reproducible with the provided codebase:
 
 Simulation behavior is statistically reproducible across runs, with results reported as averages over multiple shots.
@@ -252,8 +257,8 @@ Potential research directions building on this work:
  Extend to 2D mesh topologies beyond linear chains
  Compare with analytical bounds (Pirandola-Laurenza-Ottaviani-Banchi)
  
- ## The original NetSquid paper:
-Link
+ ## The original NetSquid paper: [Link](https://arxiv.org/pdf/2010.12535)
+
 ## Acknowledgments
 
 NetSquid Development Team at QuTech (TU Delft) for providing the simulation framework
@@ -262,3 +267,10 @@ Apple Silicon engineering team for M1 architecture enabling efficient scientific
 
 
 ## Contact & Contributions
+Developed by Md Mehedi Hasan Senior Lecturer in Computer Science and Engineering Department at Global Institute of Information Technology (GIIT), Tangail, Dhaka, Bangladesh.
+
+Email: [mehedi.hasan.ict@mbstu.ac.bd](mehedi.hasan.ict@mbstu.ac.bd) | [mehedi.hasan.ict13@gmail.com](mehedi.hasan.ict13@gmail.com)
+
+Phone: +8801789113669 | +8801334110929
+
+Institution: [GIIT University / IdeaVerse / MBSTU]
