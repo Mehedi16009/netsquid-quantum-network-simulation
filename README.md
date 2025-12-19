@@ -80,11 +80,17 @@ Each step is self-contained and executable independently, enabling modular learn
 
 Experimental Workflow
 ### Step 1: Bell-Pair Generation & Fidelity Validation
-Objective: Establish baseline correctness of quantum state manipulation.
 
-Generate maximally entangled Bell state |Φ⁺⟩ = (|00⟩ + |11⟩)/√2
-Validate fidelity against ideal state (F > 0.99)
-Verify NetSquid's quantum gate operations (H, CNOT)
+**Objective:** Establish baseline correctness of quantum state manipulation.
+
+- Generate maximally entangled Bell state  
+  |Φ⁺⟩ = (|00⟩ + |11⟩) / √2
+
+- Validate fidelity against ideal state  
+  F > 0.99
+
+- Verify NetSquid quantum gate operations  
+  H, CNOT
 
 Figure: Bell-pair fidelity distribution over 1000 trials
 ```
