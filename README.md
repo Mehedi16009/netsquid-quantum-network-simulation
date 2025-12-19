@@ -3,10 +3,11 @@ Overview
 This repository presents a comprehensive replication and scalability analysis of quantum networking experiments from the foundational paper:
 
 "NetSquid: A NETwork Simulator for QUantum Information using Discrete Events"
-Coopmans et al., Communications Physics (2021) | arXiv:2010.12535
+Coopmans et al., Communications Physics |
 
-The project systematically reproduces quantum networking primitives—from basic Bell-pair generation to thousand-node entanglement distribution—using NetSquid's discrete-event simulation framework on consumer-grade Apple Silicon hardware.
-Research Goals
+The project systematically reproduces quantum networking primitives from basic Bell-pair generation to thousand-node entanglement distribution, using NetSquid's discrete-event simulation framework on consumer-grade Apple Silicon hardware.
+
+## Research Goals
 This work demonstrates:
 
 ✅ Faithful reproduction of physical and protocol-layer quantum networking behaviors
@@ -18,9 +19,17 @@ This work demonstrates:
 ✅ Best practices for quantum network simulation without GPU clusters or distributed computing
 
 
-System Requirements
-Hardware & Environment
-ComponentSpecificationHardwareMacBook Pro (Apple M1)Operating SystemmacOSPython Version3.11.5Quantum SimulatorNetSquidExecution ModelSingle-machine, CPU-only
+## System Requirements
+
+### Hardware & Environment
+
+| Component          | Specification                  |
+|--------------------|--------------------------------|
+| Hardware           | MacBook Pro (Apple M1)          |
+| Operating System   | macOS                           |
+| Python Version     | 3.11.5                          |
+| Quantum Simulator  | NetSquid                        |
+| Execution Model    | Single-machine, CPU-only        |
 
 Note: All experiments are optimized for local execution within the memory and runtime constraints of a research laptop (~8-16 GB RAM).
 
@@ -78,7 +87,7 @@ quantum-networking/
 
 Each step is self-contained and executable independently, enabling modular learning and incremental validation.
 
-Experimental Workflow
+## Experimental Workflow
 ### Step 1: Bell-Pair Generation & Fidelity Validation
 
 **Objective:** Establish baseline correctness of quantum state manipulation.
