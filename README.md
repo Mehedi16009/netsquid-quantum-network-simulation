@@ -223,8 +223,15 @@ for step in netsquid-step{1..6}; do
 done
 ```
 ## Performance Benchmarks
-Network SizeExecution TimeMemory UsageApproach10 nodes<10 seconds<50 MBDiscrete-event100 nodes~2 minutes~200 MBDiscrete-event500 nodes~10 minutes~400 MBDiscrete-event1000 nodes<1 minute~500 MBAnalytical
-Benchmarked on MacBook Pro M1, 16 GB RAM
+
+| Network Size | Execution Time | Memory Usage | Approach           |
+|--------------|----------------|--------------|--------------------|
+| 10 nodes     | < 10 seconds   | < 50 MB      | Discrete-event     |
+| 100 nodes    | ~ 2 minutes    | ~ 200 MB     | Discrete-event     |
+| 500 nodes    | ~ 10 minutes   | ~ 400 MB     | Discrete-event     |
+| 1000 nodes   | < 1 minute     | ~ 500 MB     | Analytical         |
+
+**Benchmark Environment:** MacBook Pro M1, 16 GB RAM
 
 ## Simulation Scope and Limitations
 
