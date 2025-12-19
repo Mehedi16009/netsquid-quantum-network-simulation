@@ -97,6 +97,8 @@ Figure: Bell-pair fidelity distribution over 1000 trials
 cd netsquid-step1
 python bell_pair_basic.py
 ```
+<img width="600" height="500" alt="1" src="https://github.com/user-attachments/assets/2aa535e9-7bbd-493d-b20b-b3092fdb677a" />
+
 
 ### Step 2: Fiber Loss Modeling
 Objective: Model realistic quantum channel attenuation.
@@ -111,6 +113,9 @@ Figure: Transmission probability vs. fiber distance
 cd netsquid-step2
 python bell_pair_loss.py
 ```
+<img width="600" height="500" alt="2" src="https://github.com/user-attachments/assets/40fb14ba-f83f-4d24-b13d-30aa1c41727c" />
+
+
 ### Step 3: Two-Link Entanglement Swapping
 Objective: Demonstrate quantum repeater primitive operation.
 
@@ -123,6 +128,9 @@ Figure: Fidelity decay in two-link entanglement swapping
 cd netsquid-step3
 python bell_swap_two_links.py
 ```
+<img width="600" height="500" alt="3" src="https://github.com/user-attachments/assets/f0d5ed72-6654-4e03-a6de-633bbd413536" />
+
+
 ### Step 4: NV-Center Repeater Chain
 Objective: Simulate realistic quantum repeater architecture using nitrogen-vacancy centers.
 
@@ -142,6 +150,9 @@ Figure: NV-center repeater chain performance metrics
 cd netsquid-step4
 python nv_repeater_chain.py
 ```
+<img width="600" height="500" alt="4" src="https://github.com/user-attachments/assets/9d898f75-85ad-4c89-a262-998fc2abd31f" />
+
+
 ### Step 5: Network-Level Scaling and Control Abstractions
 Objective: Investigate control-plane behavior beyond analytical regimes.
 
@@ -161,6 +172,9 @@ Figure: Switch performance under varying network sizes
 cd netsquid-step5
 python quantum_switch_control.py
 ```
+<img width="600" height="500" alt="5" src="https://github.com/user-attachments/assets/02b3bbee-9fde-4fc5-9d00-8e9a2dd8c810" />
+
+
 ### Step 6: 1000-Node Entanglement Distribution
 Objective: Push simulation scalability limits and develop analytical models for large-scale quantum networks.
 Approach
@@ -186,6 +200,9 @@ python entanglement_chain_1000.py
 # Run scalability test to determine hardware limits
 python entanglement_chain_1000.py --test
 ```
+<img width="600" height="500" alt="6" src="https://github.com/user-attachments/assets/13128e73-0e8a-468a-ab6e-6e22584986ae" />
+
+
 ## Key Findings & Contributions
 1. Scalability Boundaries
 
